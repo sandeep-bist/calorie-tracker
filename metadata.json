@@ -1,0 +1,6 @@
+{
+  "name": "Calorie & Protein Tracker",
+  "description": "Minimalist high-contrast dark theme calorie and protein tracker with instant AI photo meal analysis.",
+  "requestFramePermissions": ["camera"],
+  "majorCapabilities": ["MAJOR_CAPABILITY_SERVER_SIDE_GEMINI_API"]
+}

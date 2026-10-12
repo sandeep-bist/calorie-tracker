@@ -1,0 +1,12 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 512 512" width="512" height="512">
+  <rect width="512" height="512" rx="112" fill="#050505"/>
+  <rect x="24" y="24" width="464" height="464" rx="92" fill="none" stroke="#1f2937" stroke-width="8"/>
+  <!-- Calorie Emerald Ring Arc -->
+  <circle cx="256" cy="256" r="170" fill="none" stroke="#10b981" stroke-width="26" stroke-linecap="round" stroke-dasharray="800" stroke-dashoffset="240"/>
+  <!-- Protein Sky Ring Arc -->
+  <circle cx="256" cy="256" r="130" fill="none" stroke="#38bdf8" stroke-width="22" stroke-linecap="round" stroke-dasharray="600" stroke-dashoffset="180"/>
+  <!-- Central Stylized Flame & Lens Icon -->
+  <path d="M256 160 C230 200 210 240 210 280 C210 320 232 344 256 344 C280 344 302 320 302 280 C302 240 282 200 256 160 Z" fill="#10b981"/>
+  <circle cx="256" cy="290" r="22" fill="#050505"/>
+  <circle cx="256" cy="290" r="14" fill="#38bdf8"/>
+</svg>
