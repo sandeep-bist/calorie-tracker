@@ -23,7 +23,7 @@ function getGenAI(customKey?: string) {
 
 async function startServer() {
   const app = express();
-  const PORT = 3000;
+  const PORT = Number(process.env.PORT) || 3000;
 
   // Support up to 25MB for image uploads
   app.use(express.json({ limit: "25mb" }));
@@ -341,4 +341,6 @@ Output strict JSON matching the schema.`;
   });
 }
 
-startServer();
+startServer().catch((err) => {
+  console.error("Critical server startup error:", err);
+});
